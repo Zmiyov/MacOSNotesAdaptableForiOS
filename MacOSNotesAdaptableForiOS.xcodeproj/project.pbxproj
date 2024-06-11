@@ -11,6 +11,17 @@
 		A52BCCC32C18C054001FF551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCC22C18C054001FF551 /* ContentView.swift */; };
 		A52BCCC52C18C055001FF551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52BCCC42C18C055001FF551 /* Assets.xcassets */; };
 		A52BCCC82C18C055001FF551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52BCCC72C18C055001FF551 /* Preview Assets.xcassets */; };
+		A52BCCD62C18C0B1001FF551 /* iOSNotesAdaptableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCD52C18C0B1001FF551 /* iOSNotesAdaptableApp.swift */; };
+		A52BCCD82C18C0B1001FF551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCD72C18C0B1001FF551 /* ContentView.swift */; };
+		A52BCCDA2C18C0B2001FF551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52BCCD92C18C0B2001FF551 /* Assets.xcassets */; };
+		A52BCCDD2C18C0B2001FF551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52BCCDC2C18C0B2001FF551 /* Preview Assets.xcassets */; };
+		A52BCCE42C18C14F001FF551 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52BCCE32C18C14F001FF551 /* Media.xcassets */; };
+		A52BCCE52C18C154001FF551 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52BCCE32C18C14F001FF551 /* Media.xcassets */; };
+		A52BCCE72C18C214001FF551 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCE62C18C214001FF551 /* Home.swift */; };
+		A52BCCE82C18C22D001FF551 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCE62C18C214001FF551 /* Home.swift */; };
+		A52BCCEB2C18DE56001FF551 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCEA2C18DE56001FF551 /* Note.swift */; };
+		A52BCCEC2C18E030001FF551 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCEA2C18DE56001FF551 /* Note.swift */; };
+		A52BCCEF2C18E777001FF551 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BCCED2C18E747001FF551 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +31,26 @@
 		A52BCCC42C18C055001FF551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52BCCC72C18C055001FF551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A52BCCC92C18C055001FF551 /* MacOSNotesAdaptableForiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSNotesAdaptableForiOS.entitlements; sourceTree = "<group>"; };
+		A52BCCD32C18C0B1001FF551 /* iOSNotesAdaptable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNotesAdaptable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52BCCD52C18C0B1001FF551 /* iOSNotesAdaptableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSNotesAdaptableApp.swift; sourceTree = "<group>"; };
+		A52BCCD72C18C0B1001FF551 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A52BCCD92C18C0B2001FF551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A52BCCDC2C18C0B2001FF551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A52BCCE32C18C14F001FF551 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		A52BCCE62C18C214001FF551 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A52BCCEA2C18DE56001FF551 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A52BCCED2C18E747001FF551 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A52BCCBA2C18C054001FF551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52BCCD02C18C0B1001FF551 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +63,10 @@
 		A52BCCB42C18C054001FF551 = {
 			isa = PBXGroup;
 			children = (
+				A52BCCE12C18C0C8001FF551 /* Shared */,
+				A52BCCE32C18C14F001FF551 /* Media.xcassets */,
 				A52BCCBF2C18C054001FF551 /* MacOSNotesAdaptableForiOS */,
+				A52BCCD42C18C0B1001FF551 /* iOSNotesAdaptable */,
 				A52BCCBE2C18C054001FF551 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A52BCCBD2C18C054001FF551 /* MacOSNotesAdaptableForiOS.app */,
+				A52BCCD32C18C0B1001FF551 /* iOSNotesAdaptable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +100,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A52BCCD42C18C0B1001FF551 /* iOSNotesAdaptable */ = {
+			isa = PBXGroup;
+			children = (
+				A52BCCD52C18C0B1001FF551 /* iOSNotesAdaptableApp.swift */,
+				A52BCCD72C18C0B1001FF551 /* ContentView.swift */,
+				A52BCCD92C18C0B2001FF551 /* Assets.xcassets */,
+				A52BCCDB2C18C0B2001FF551 /* Preview Content */,
+			);
+			path = iOSNotesAdaptable;
+			sourceTree = "<group>";
+		};
+		A52BCCDB2C18C0B2001FF551 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A52BCCDC2C18C0B2001FF551 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A52BCCE12C18C0C8001FF551 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A52BCCE92C18DE4D001FF551 /* Model */,
+				A52BCCE22C18C101001FF551 /* View */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A52BCCE22C18C101001FF551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A52BCCE62C18C214001FF551 /* Home.swift */,
+				A52BCCED2C18E747001FF551 /* BlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A52BCCE92C18DE4D001FF551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A52BCCEA2C18DE56001FF551 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +165,23 @@
 			productReference = A52BCCBD2C18C054001FF551 /* MacOSNotesAdaptableForiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A52BCCD22C18C0B1001FF551 /* iOSNotesAdaptable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52BCCDE2C18C0B2001FF551 /* Build configuration list for PBXNativeTarget "iOSNotesAdaptable" */;
+			buildPhases = (
+				A52BCCCF2C18C0B1001FF551 /* Sources */,
+				A52BCCD02C18C0B1001FF551 /* Frameworks */,
+				A52BCCD12C18C0B1001FF551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSNotesAdaptable;
+			productName = iOSNotesAdaptable;
+			productReference = A52BCCD32C18C0B1001FF551 /* iOSNotesAdaptable.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +193,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					A52BCCBC2C18C054001FF551 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A52BCCD22C18C0B1001FF551 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -118,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				A52BCCBC2C18C054001FF551 /* MacOSNotesAdaptableForiOS */,
+				A52BCCD22C18C0B1001FF551 /* iOSNotesAdaptable */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +225,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52BCCC82C18C055001FF551 /* Preview Assets.xcassets in Resources */,
+				A52BCCE42C18C14F001FF551 /* Media.xcassets in Resources */,
 				A52BCCC52C18C055001FF551 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52BCCD12C18C0B1001FF551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52BCCDD2C18C0B2001FF551 /* Preview Assets.xcassets in Resources */,
+				A52BCCE52C18C154001FF551 /* Media.xcassets in Resources */,
+				A52BCCDA2C18C0B2001FF551 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +248,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52BCCC32C18C054001FF551 /* ContentView.swift in Sources */,
+				A52BCCE72C18C214001FF551 /* Home.swift in Sources */,
 				A52BCCC12C18C054001FF551 /* MacOSNotesAdaptableForiOSApp.swift in Sources */,
+				A52BCCEB2C18DE56001FF551 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52BCCCF2C18C0B1001FF551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52BCCD82C18C0B1001FF551 /* ContentView.swift in Sources */,
+				A52BCCE82C18C22D001FF551 /* Home.swift in Sources */,
+				A52BCCEF2C18E777001FF551 /* BlurView.swift in Sources */,
+				A52BCCD62C18C0B1001FF551 /* iOSNotesAdaptableApp.swift in Sources */,
+				A52BCCEC2C18E030001FF551 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +441,69 @@
 			};
 			name = Release;
 		};
+		A52BCCDF2C18C0B2001FF551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSNotesAdaptable/Preview Content\"";
+				DEVELOPMENT_TEAM = H32J47ML7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pysarenkodev.iOSNotesAdaptable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A52BCCE02C18C0B2001FF551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSNotesAdaptable/Preview Content\"";
+				DEVELOPMENT_TEAM = H32J47ML7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pysarenkodev.iOSNotesAdaptable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +521,15 @@
 			buildConfigurations = (
 				A52BCCCD2C18C055001FF551 /* Debug */,
 				A52BCCCE2C18C055001FF551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52BCCDE2C18C0B2001FF551 /* Build configuration list for PBXNativeTarget "iOSNotesAdaptable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52BCCDF2C18C0B2001FF551 /* Debug */,
+				A52BCCE02C18C0B2001FF551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

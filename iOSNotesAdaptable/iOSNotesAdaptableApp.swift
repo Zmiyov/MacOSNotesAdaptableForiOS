@@ -1,6 +1,6 @@
 //
-//  MacOSNotesAdaptableForiOSApp.swift
-//  MacOSNotesAdaptableForiOS
+//  iOSNotesAdaptableApp.swift
+//  iOSNotesAdaptable
 //
 //  Created by Volodymyr Pysarenko on 11.06.2024.
 //
@@ -8,11 +8,10 @@
 import SwiftUI
 
 @main
-struct MacOSNotesAdaptableForiOSApp: App {
+struct iOSNotesAdaptableApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
